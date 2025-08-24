@@ -2,8 +2,8 @@
 
 use function Livewire\Volt\{state, mount};
 state(['word']);
-mount (function(){
-$this->upper_word = strtoupper($this->word);
+mount(function () {
+    $this->upper_word = strtoupper($this->word);
 });
 
 ?>
