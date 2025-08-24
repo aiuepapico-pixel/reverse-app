@@ -7,7 +7,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Volt::route('/reverse/{word}', 'reverse');
-Volt::route('/upper/{word}' , 'upper');
-volt::route('/lower/{word})', 'lower');
-
-
+Volt::route('/upper/{word}', 'upper');
+Volt::route('/lower/{word}', 'lower');
